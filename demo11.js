@@ -1,3 +1,14 @@
+console.log((x=>2*x)(10));
+
+
+
+let func1 = () => ({id:100})
+console.log(func1());
+
+let func1 = () => {return {id:100}}
+console.log(func1());
+
+
 let func1 = () => 1
 
 console.log(func1());
