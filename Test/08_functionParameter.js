@@ -13,6 +13,7 @@ func1(15);                //15
 
 //ES6 寫法
 function func2(a=0,b=0){
+    console.log(typeof arguments);  
     console.log("您輸入的參數:" + arguments.length);
     console.log(a+b);
 }
@@ -28,12 +29,15 @@ function hello(){
 
 function callFunc(userName,msg=hello()){
     console.log(msg +userName);
+    console.log(typeof arguments[0]);
+    console.log(typeof arguments[1]);
 }
 
 callFunc("Peter");
 
 console.log(hello.name);
 console.log(callFunc.name);
+
 
 
 

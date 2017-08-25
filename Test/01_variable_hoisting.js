@@ -26,8 +26,11 @@ func1();
 
 //建議做法
 function func1(){
-    let userName = "Mary";
+    let userName = 'Mary';
     console.log(userName);
 }
+
 func1();
+
+
 
